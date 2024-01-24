@@ -5,6 +5,7 @@ public class Vehicle {
 
     Vehicle() {
         this(10); // line n1
+        System.out.println("Calling Vehicle's constructor");
     }
 
     Vehicle(int x) {
