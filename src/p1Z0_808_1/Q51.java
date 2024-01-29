@@ -5,7 +5,7 @@ public class Q51 extends Vehicle{
 
     Q51() {
         super();
-        this(20)
+        //this(20);
 
     }
 
