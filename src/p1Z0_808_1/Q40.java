@@ -8,9 +8,11 @@ public class Q40 extends DerivedA {
     public static void main(String[] args) {
         Base b1 = new Q40();
         Base b2 = new DerivedA();
-        Base b3 = new Q40();
-        b1 = (Base) b3;
-        Base b4 = (DerivedA) b3;
+        Base b3 = new Q40();        
+        Base b4 = b3;
+        b1 = (Base) b2;
+        // b1 = (Base) b3;
+        // Base b4 = (DerivedA) b3;
         b1.test();
         b4.test();
 

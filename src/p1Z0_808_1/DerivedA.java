@@ -5,11 +5,11 @@ public  class DerivedA extends Base {
         System.out.println("DerivedA ");
     }
 
-    public DerivedA() {
-        System.out.println("DerivedA ");
-    }
+    // public DerivedA() {
+    //     System.out.println("DerivedA ");
+    // }
 
-    public static void main(String[] args) {
-        DerivedA test = new DerivedA();
-    }
+    // public static void main(String[] args) {
+    //     DerivedA test = new DerivedA();
+    // }
 }

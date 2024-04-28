@@ -5,7 +5,7 @@ public class Base {
         System.out.println("Base ");
     }
 
-    public Base() {
-        System.out.println("Base ");
-    }
+    // public Base() {
+    //     System.out.println("Base ");
+    // }
 }
